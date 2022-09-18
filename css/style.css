@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+h1 {
+    font-size: 50px;
+}
+div p{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+}
+ul {
+    list-style-type:none;
+    font-size: 30px;
+    margin-left: 80px;
+}
+span {
+    background-color: green;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 10px;
+}
+table {
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    height: 400px;
+  }
+  td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    font-size: 20px;
+    padding: 8px;
+  }
+  tr {
+    background-color: rgb(132, 205, 244);
+  }
+  tr:nth-child(even) {
+    background-color: rgb(28, 114, 243);
+  }
+  .top-table
+  {
+    height: 10px;
+    background-color: rgb(12, 76, 173);
+  }
+  .pirmas{
+    border-radius: 30px;
+  }
+  fieldset {
+    width: 30%;
+    height: 280px;
+  }
+  legend {
+    font-size: 20px;
+  }
+  select, input {
+    position: absolute;
+    width: 200px;
+    left: 200px;
+  }
+  .submit {
+    position: absolute;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    left: 500px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 100px;
+  }
+  .checkbox {
+    display: inline;
+  }
